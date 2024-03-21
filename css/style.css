@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar{
+    background-color: rgb(250, 168, 4);
+}
+
+.navbar .icon{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    gap: 0.2rem;
+}
+
+.home{
+    background-image: url(../images/white-bricks-wall-texture.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);;
+}
+
+.home .row{
+    display: flex;
+    align-items: center;
+}
+
+.home .row img{
+    width: 100%;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+}
+
+.about img{
+    width: 100%;
+}
+
+.library img{
+    width: 100%;
+}
+
+.contact{
+    background-color: #dcdcdc;
+    padding: 40px;
+}
+
+.contact button{
+    background-color: rgb(250, 168, 4);
+}
+
+.contact button:hover{
+    background-color: rgb(250, 139, 4);
+    color: #ffffff;
+}
+
+.contact iframe{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.footer{
+    background-color: rgb(250, 139, 4);
+    width: 100%;
+}
+
+span{
+    color: rgb(250, 139, 4);
+}
